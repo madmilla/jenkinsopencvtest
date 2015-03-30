@@ -19,7 +19,7 @@ int main()
 
     Mat img = imread("Lenna.png",CV_LOAD_IMAGE_COLOR);
     //imshow("opencvtest",img); <-- bash heeft geen ui.
-    img=cv::Scalar(blue_value, green_value, red_value);
+    img=cv::Scalar(255, 0, 0);
     waitKey(0);
 
     return 0;
